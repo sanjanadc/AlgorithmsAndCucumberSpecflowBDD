@@ -11,9 +11,9 @@ namespace Algo_Repository.Arrays
 Output: 3
 Explanation: The first two digits or the last three digits are consecutive 1s. 
 The maximum number of consecutive 1s is 3.*/
- public static class max_no_Ones
+  static class max_no_Ones
 {
-        public static int FindMaxConsecutiveOnes(int[] nums)
+         static int FindMaxConsecutiveOnes(int[] nums)
         {
             int max = 0;
             int count = 0;
@@ -33,12 +33,12 @@ The maximum number of consecutive 1s is 3.*/
             return max;
         }
 
-        public  static void Main(string []args)
-        {
-            int[] nums = { 1, 1, 0, 1, 1, 1 };
+        //  static void Main(string []args)
+        //{
+        //    int[] nums = { 1, 1, 0, 1, 1, 1 };
             
-            Console.WriteLine(FindMaxConsecutiveOnes(nums));
-        }
+        //    Console.WriteLine(FindMaxConsecutiveOnes(nums));
+        //}
 
 
     }
