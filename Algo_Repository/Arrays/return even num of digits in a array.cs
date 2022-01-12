@@ -16,11 +16,11 @@ namespace Algo_Repository.Arrays
          static int FindNumbers_solution1(int[] nums)
         {
 
-            string digit;
+            
             int count =0;
             for(int i =0;i<nums.Length;i++)
             {
-                digit = Convert.ToString(nums[i]);
+                string digit = Convert.ToString(nums[i]);
                 if(digit.Length % 2 == 0)
                 {
                     count++;
@@ -28,10 +28,33 @@ namespace Algo_Repository.Arrays
             }
             return count;
         }
-        static void Main(string[] args)
+
+        static int FindNumbers_solution2(int [] nums)
         {
-            int[] arr = { 555, 901, 482, 1771 };
-            Console.WriteLine(FindNumbers_solution1(arr));
+            int count = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                
+                int num = nums[i];
+                int counter = 0;
+                while( num != 0){
+                    num = num/10;
+                    counter++;
+                }
+
+                if(counter %2 == 0){
+                    count++;
+                }
+
+
+            }
+            return count;
         }
+        //static void Main(string[] args)
+        //{
+        //    int[] arr = { 555, 901, 482, 1771 };
+        //    // Console.WriteLine(FindNumbers_solution1(arr));
+        //    Console.WriteLine(FindNumbers_solution2(arr));
+        //}
     }
 }
