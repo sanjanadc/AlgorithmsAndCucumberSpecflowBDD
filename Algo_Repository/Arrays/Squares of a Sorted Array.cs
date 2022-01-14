@@ -28,17 +28,18 @@ namespace Algo_Repository.Arrays
                     res[pos--] = nums[b] * nums[b];
                     b--;
                 }
+   
             }
 
             return res;
         }
     
 
-        static void Main(string[] args)
-        {
-            int[] nums = { 9,2,1 };
+        //static void Main(string[] args)
+        //{
+        //    int[] nums = { 9,2,1 };
 
-            SortedSquares(nums);
-        }
+        //    SortedSquares(nums);
+        //}
     }
 }
