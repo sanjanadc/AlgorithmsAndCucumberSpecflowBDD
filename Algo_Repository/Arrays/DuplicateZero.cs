@@ -10,31 +10,24 @@ namespace Algo_Repository.Arrays
     {
         public static void DuplicateZeros(int[] arr)
         {
-
-            int[] result = new int[arr.Length];
-            for (int i = 0; i < arr.Length; i++)
+            for (int index = 0; index < arr.Length; index++)
             {
-                if (arr[i] == 0)
+                if (arr[index] == 0)
                 {
-                    int loc = i;
-                    for (int j = 0; j < loc; j++)
+                    int len = arr.Length - 1;
+                    while (len > index)
                     {
-                        result[j] = arr[j];
-                        result[loc] = 0;
+                        arr[len] = arr[len - 1];
+                        len--;
                     }
-                    for (int j = loc + 1; j < arr.Length; j++)
-                    {
-                        result[j] = arr[j - 1];
-                    }
+                    index++;
                 }
-
-
             }
         }
 
             static void Main(string[] args)
             {
-                int[] nums = { 9, 0, 1 };
+                int[] nums = { 1, 0, 2, 3, 0, 4, 5, 0 };
 
             DuplicateZeros(nums);
             }
