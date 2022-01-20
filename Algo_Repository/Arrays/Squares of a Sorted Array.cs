@@ -13,7 +13,7 @@ namespace Algo_Repository.Arrays
             int a = 0;
             int b = nums.Length - 1;
 
-            int[] res = new int[b + 1];
+            int[] res = new int[nums.Length];
             int pos = b;
 
             while (a <= b)
@@ -33,13 +33,13 @@ namespace Algo_Repository.Arrays
 
             return res;
         }
-    
 
-        //static void Main(string[] args)
-        //{
-        //    int[] nums = { 9,2,1 };
 
-        //    SortedSquares(nums);
-        //}
+        static void Main(string[] args)
+        {
+            int[] nums = { 9, 2, 1 };
+
+            SortedSquares(nums);
+        }
     }
 }
