@@ -10,28 +10,28 @@ namespace Algo_Repository.Arrays
     {
         public static void DuplicateZeros(int[] arr)
         {
-            for (int index = 0; index < arr.Length; index++)
+            for (int i = 0; i < arr.Length; i++)
             {
-                if (arr[index] == 0)
+                if (arr[i] == 0)
                 {
                     int len = arr.Length - 1;
-                    while (len > index)
+                    while (len > i)
                     {
                         arr[len] = arr[len - 1];
                         len--;
                     }
-                    index++;
+                    i++;
                 }
             }
         }
 
-            //static void Main(string[] args)
-            //{
-            //    int[] nums = { 1, 0, 2, 3, 0, 4, 5, 0 };
+        static void Main(string[] args)
+        {
+            int[] nums = { 1, 0, 2, 3, 0 };
 
-            //DuplicateZeros(nums);
-            //}
+            DuplicateZeros(nums);
         }
+    }
     }
 
 
