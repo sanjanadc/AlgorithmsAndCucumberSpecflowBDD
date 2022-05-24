@@ -20,7 +20,7 @@ namespace Algo_Repository.Arrays
                 {
                     return new int[] { pair[complement], i };
                 }
-                pair.Add(complement, i);
+                pair[array[i]] = i;
             }
             return null;
         }
