@@ -25,13 +25,13 @@ namespace Algo_Repository.Arrays
             }
         }
 
-        static void Main(string[] args)
-        {
-            int[] nums = { 1, 0, 2, 3, 0 };
+        /* static void Main(string[] args)
+         {
+             int[] nums = { 1, 0, 2, 3, 0 };
 
-            DuplicateZeros(nums);
-        }
+             DuplicateZeros(nums);
+         }*/
     }
-    }
+}
 
 

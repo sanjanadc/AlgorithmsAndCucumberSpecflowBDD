@@ -11,25 +11,28 @@ namespace Algo_Repository.Arrays
 
         public static int LengthOfLongestSubstring(string s)
         {
-            Dictionary<char, int> val = new Dictionary<char, int>();
-            int j = 0, max = 0,i=0;
-            for (; i < s.Length; i++)
+            Dictionary<char, int> map = new Dictionary<char, int>();
+            int result = 0;
+            int left = 0;
+            for (int right = 0; right < s.Length; right++)
             {
-                if(val.ContainsKey(s[i]))
-                    j = Math.Max(j, val[s[i]] + 1);
-
-                val[s[i]] = i;
-                max = Math.Max(max, i - j + 1);
-                
+                if (map.ContainsKey(s[right]))
+                {
+                    left = Math.Max(map[s[right]], left);
+                }
+                result = Math.Max(result, right - left + 1);
+                map[s[right]] = right + 1;
             }
-            return max;
+            Console.WriteLine("longest substring is " + map.Keys);
+            return result;
+
         }
-        static void Main()
-        {
-            string s = "abcabcbb";
-            Console.WriteLine("The input string is " + s);
-            int length = LengthOfLongestSubstring(s);
-            Console.WriteLine("The length of the longest non-repeating character substring is " + length);
-        }
+        //static void Main()
+        //{ 
+        //    string s = "abcabcbb";
+        //    Console.WriteLine("The input string is " + s);
+        //    int length = LengthOfLongestSubstring(s);
+        //    Console.WriteLine("The length of the longest non-repeating character substring is " + length);
+        //}
     }
 }
