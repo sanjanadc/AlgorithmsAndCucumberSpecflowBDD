@@ -11,9 +11,11 @@ namespace Algo_Repository
 
         int start = 0;
         int length = 0;
+
         public string LongestPalindrome(string s)
         {
-            if (s == null || s.Length <= 1)
+
+            if (s.Length <= 1)
                 return s;
             for (int i = 0; i < s.Length; i++)
             {
@@ -25,8 +27,7 @@ namespace Algo_Repository
         }
 
         public void ExpandFromMiddle(string s, int i, int j)
-        {
-            //abcracecarc
+        {//racecar
             while (i >= 0 && j < s.Length && s[i] == s[j])
             {
                 i--;
@@ -40,12 +41,14 @@ namespace Algo_Repository
         }
 
 
-        public static void Main()
-        {
-            string s = "abc";
-            Longest_Palindromic_Substring str = new Longest_Palindromic_Substring();
-            Console.WriteLine(str.LongestPalindrome(s));
-        }
+
+
+        //public static void Main()
+        //{
+        //    string s = "sdfsas56";
+        //    Longest_Palindromic_Substring str = new Longest_Palindromic_Substring();
+        //    Console.WriteLine(str.LongestPalindrome(s));
+        //}
 
     }
 }

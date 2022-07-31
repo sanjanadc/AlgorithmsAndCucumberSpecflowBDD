@@ -20,13 +20,15 @@ namespace Algo_Repository.Arrays
             {
                 if (Math.Abs(nums[a]) > Math.Abs(nums[b]))
                 {
-                    res[pos--] = nums[a] * nums[a];
+                    res[pos] = nums[a] * nums[a];
                     a++;
+                    pos--;
                 }
                 else
                 {
-                    res[pos--] = nums[b] * nums[b];
+                    res[pos] = nums[b] * nums[b];
                     b--;
+                    pos--;
                 }
    
             }

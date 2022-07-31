@@ -40,7 +40,7 @@ namespace Algo_Repository.Arrays
 
             //static void Main()
             //{
-            //    int[] arr = { 1, 2, 2, 3, };
+            //    int[] arr = { 1, 2, 2, 3 };
 
 
             //    int val = removeDuplicates(arr);

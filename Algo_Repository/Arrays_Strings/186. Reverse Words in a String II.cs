@@ -42,7 +42,7 @@ namespace Algo_Repository.Arrays
 
         //public static void Main()
         //{
-        //    char[] hay = {'f','i',' ','s','e'};
+        //    char[] hay = { 'f', 'i', ' ', 's', 'e' };
 
         //    ReverseWords(hay);
         //}

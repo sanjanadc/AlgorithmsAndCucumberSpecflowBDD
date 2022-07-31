@@ -42,14 +42,14 @@ namespace Algo_Repository.Arrays
                 }
             }
 
-            //public static void Main()
-            //{
-            //    string hay = "hello hi";
+        //public static void Main()
+        //{
+        //    string hay = "hello hi";
 
-            //    Console.WriteLine(ReverseWords(hay));
-            //}
-        
+        //    Console.WriteLine(ReverseWords(hay));
+        //}
 
-     
+
+
     }
 }

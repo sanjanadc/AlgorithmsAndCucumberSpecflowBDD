@@ -10,28 +10,21 @@ namespace Algo_Repository.Arrays
     {
         public static bool IsPalindrome(int x)
         {
-            if (x < 0) return false;
-            int div = 1,l=0,r=0;
-            while (x / div >= 10)
+            if(x < 0 || x%10 == 0 && x!=0 )
+                return false;
+            int revert = 0;
+            while(x>revert)
             {
-                div *= 10;
+                revert = revert * 10 + x % 10;
+                x = x % 10;
             }
-            while (x != 0)
-            {
-                 l = x / div;
-                 r = x % 10;
-                if (l != r) return false;
-                x = (x % div) / 10;
-                div /= 100;
-            }
-            return true;
-            
+            return x == revert || x == revert / 10;
         }
 
 
         //public static void Main()
         //{
-        //    int num = 121;
+        //    int num = 123216;
         //    Console.WriteLine(IsPalindrome(num));
 
         //}
