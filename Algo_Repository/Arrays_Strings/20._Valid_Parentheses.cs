@@ -35,11 +35,11 @@ namespace Algo_Repository.Arrays_Strings
             else
                 return false;
         }
-        public static void Main()
-        {
-            string s = "[[";
+        //public static void Main()
+        //{
+        //    string s = "([])";
 
-            Console.WriteLine(IsValid(s));
-        }
+        //    Console.WriteLine(IsValid(s));
+        //}
     }
 }
