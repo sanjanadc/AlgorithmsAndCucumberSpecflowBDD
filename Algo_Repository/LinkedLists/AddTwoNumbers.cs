@@ -46,17 +46,17 @@ namespace Algo_Repository.LinkedLists
 
         }
 
-        //public static void Main()
-        //{
-        //    ListNode l1 = new ListNode(2);
-        //    l1.next = new ListNode(4);
-        //    l1.next.next = new ListNode(3);
-        //    ListNode l2 = new ListNode(5);
-        //    l2.next = new ListNode(6);
-        //    l2.next.next = new ListNode(4);
+        public static void Main()
+        {
+            ListNode l1 = new ListNode(2);
+            l1.next = new ListNode(4);
+            l1.next.next = new ListNode(3);
+            ListNode l2 = new ListNode(5);
+            l2.next = new ListNode(6);
+            l2.next.next = new ListNode(4);
 
-        //    AddTwoNumbers_1(l1, l2);
+            AddTwoNumbers_1(l1, l2);
 
-        //}
+        }
     }
 }
