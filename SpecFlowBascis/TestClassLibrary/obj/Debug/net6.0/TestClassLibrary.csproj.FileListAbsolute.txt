@@ -1,0 +1,12 @@
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\bin\Debug\net6.0\TestClassLibrary.deps.json
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\bin\Debug\net6.0\TestClassLibrary.dll
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\bin\Debug\net6.0\ref\TestClassLibrary.dll
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\bin\Debug\net6.0\TestClassLibrary.pdb
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\obj\Debug\net6.0\TestClassLibrary.csproj.AssemblyReference.cache
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\obj\Debug\net6.0\TestClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\obj\Debug\net6.0\TestClassLibrary.AssemblyInfoInputs.cache
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\obj\Debug\net6.0\TestClassLibrary.AssemblyInfo.cs
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\obj\Debug\net6.0\TestClassLibrary.csproj.CoreCompileInputs.cache
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\obj\Debug\net6.0\TestClassLibrary.dll
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\obj\Debug\net6.0\ref\TestClassLibrary.dll
+C:\Algo_Repository\SpecFlowBascis\TestClassLibrary\obj\Debug\net6.0\TestClassLibrary.pdb
