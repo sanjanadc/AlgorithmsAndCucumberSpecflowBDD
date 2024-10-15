@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algo_Repository.Arrays
 {
-    internal class LC_557_Reverse_words_in_a_string
+    internal class LC_557_ReverseWordsInAString
     {
             public static string ReverseWords(string s)
             {

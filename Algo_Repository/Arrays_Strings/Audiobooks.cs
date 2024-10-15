@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algo_Repository.Arrays_Strings
 {
-    internal class Audio_books
+    internal class Audiobooks
     {
         public static int[] find(int[] cha, int[] book)
         {

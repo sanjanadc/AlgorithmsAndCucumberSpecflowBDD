@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algo_Repository.Arrays
 {
-    internal static class Reverse_Integer
+    internal static class ReverseInteger
     {
         public static int Reverse(int x)
         {

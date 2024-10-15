@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algo_Repository.Arrays_Strings
 {
-    internal class Maximum_Number_of_Words_Found_in_Sentences
+    internal class MaximumNumberOfWordsFoundInSentences
     {
         public static int MostWordsFound(string[] sentences)
         {

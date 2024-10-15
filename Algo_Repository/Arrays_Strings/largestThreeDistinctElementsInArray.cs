@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algo_Repository.Arrays_Strings
 {
-    internal class largest_three_distinct_elements_in_array
+    internal class largestThreeDistinctElementsInArray
     {
         public static int[] dictinct(int[] arr)
         {

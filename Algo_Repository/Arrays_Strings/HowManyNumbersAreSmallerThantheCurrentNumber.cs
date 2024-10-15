@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algo_Repository.Arrays_Strings
 {
-    internal class How_Many_Numbers_Are_Smaller_Than_the_Current_Number
+    internal class HowManyNumbersAreSmallerThantheCurrentNumber
     {
         public static int[] SmallerNumbersThanCurrent(int[] nums)
         {
@@ -26,11 +26,7 @@ namespace Algo_Repository.Arrays_Strings
             return arr;
         }
 
-        public static void Main()
-        {
-            int[] nums = { 8, 1, 2, 2, 3 };
-            SmallerNumbersThanCurrent(nums);
-        }
+       
 
     }
 }

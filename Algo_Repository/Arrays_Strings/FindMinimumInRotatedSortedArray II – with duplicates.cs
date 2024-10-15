@@ -26,11 +26,11 @@ namespace Algo_Repository.Arrays_Strings
         }
 
 
-        public static void Main()
-        {
-            int[] nums = { 1, 1, 1, 0, 1};
-            findMin(nums);
-        }
+        //public static void Main()
+        //{
+        //    int[] nums = { 1, 1, 1, 0, 1};
+        //    findMin(nums);
+        //}
 
     }
 }

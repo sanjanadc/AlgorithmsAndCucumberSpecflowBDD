@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algo_Repository.Arrays_Strings
 {
-    internal class Create_Target_Array_in_the_Given_Order
+    internal class CreateTargetArrayIntheGivenOrder
     {
         public static int[] CreateTargetArray(int[] nums, int[] index)
         {

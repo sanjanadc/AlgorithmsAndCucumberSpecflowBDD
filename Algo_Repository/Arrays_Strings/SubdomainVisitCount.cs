@@ -34,15 +34,15 @@ namespace Algo_Repository.Arrays_Strings
             return r.Select(e => $"{e.Value} {e.Key}").ToList();
         }
 
-        public static void Main()
-        {
-            string[] cpdomains = { "900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org" };
-            var domains = SubdomainVisits(cpdomains);
-            foreach (var c in domains)
-            {
-                Console.WriteLine(c);
-            }
-        }
+        //public static void Main()
+        //{
+        //    string[] cpdomains = { "900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org" };
+        //    var domains = SubdomainVisits(cpdomains);
+        //    foreach (var c in domains)
+        //    {
+        //        Console.WriteLine(c);
+        //    }
+        //}
     }
 
     

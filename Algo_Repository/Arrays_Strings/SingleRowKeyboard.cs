@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algo_Repository.Arrays_Strings
 {
-    internal class Single_row_Keyboard
+    internal class SingleRowKeyboard
     {
 
         public static int CalculateTime(string keyboard, string word)

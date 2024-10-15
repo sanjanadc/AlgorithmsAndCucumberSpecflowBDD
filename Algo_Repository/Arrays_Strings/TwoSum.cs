@@ -12,6 +12,7 @@ namespace Algo_Repository.Arrays
         public static int[] TwoSums(int[] array, int target)
         {
             Dictionary<int, int> pair = new Dictionary<int, int>();
+            
             for (int i = 0; i < array.Length; i++)
             {
                 int complement = target - array[i];

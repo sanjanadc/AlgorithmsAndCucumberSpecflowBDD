@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algo_Repository
 {
-    public  class Longest_Palindromic_Substring
+    public  class LongestPalindromicSubstring
     {
 
         int start = 0;
@@ -14,7 +14,7 @@ namespace Algo_Repository
 
         public string LongestPalindrome(string s)
         {
-
+                s.Substring(start, s.Length - start);
             if (s.Length <= 1)
                 return s;
             for (int i = 0; i < s.Length; i++)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algo_Repository.Arrays_Strings
 {
-    internal class TwoSumII_Input_Array_Is_Sorted
+    internal class TwoSumII_InputArrayIsSorted
     {
         public static int[] TwoSum(int[] numbers, int target)
         {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-class Program
+class Programs
 {
     
     public static int TwoSumLessThanK(int[] nums, int k)
@@ -31,10 +31,10 @@ class Program
     }
     
 
-    static void Main()
-    {
-        // example usage
-        int[] nums = new int[] { 10,20,30 };
-        TwoSumLessThanK(nums, 15);
-    }
+    //static void Main()
+    //{
+    //    // example usage
+    //    //int[] nums = new int[] { 10,20,30 };
+    //    //TwoSumLessThanK(nums, 15);
+    //}
 }
